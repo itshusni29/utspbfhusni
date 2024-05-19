@@ -1,0 +1,196 @@
+[
+    {
+        "name": "John Doe",
+        "email": "john.doe@example.com",    
+        "password": "Password123!",
+        "password_confirmation": "Password123!"
+    },
+    {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "password": "SecurePass456!",
+        "password_confirmation": "SecurePass456!"
+    },
+    {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "password": "MyPassword789!",
+        "password_confirmation": "MyPassword789!"
+    },
+    {
+        "name": "Bob Brown",
+        "email": "bob.brown@example.com",
+        "password": "PasswordABC123!",
+        "password_confirmation": "PasswordABC123!"
+    },
+    {
+        "name": "Charlie Davis",
+        "email": "charlie.davis@example.com",
+        "password": "Secure789Pass!",
+        "password_confirmation": "Secure789Pass!"
+    },
+
+
+
+
+
+    {
+        "id": 2,
+        "name": "Baju",
+        "created_at": "2024-05-19T14:30:42.000000Z",
+        "updated_at": "2024-05-19T14:30:42.000000Z"
+    },
+    {
+        "id": 1,
+        "name": "Celana",
+        "created_at": "2024-05-19T14:30:30.000000Z",
+        "updated_at": "2024-05-19T14:30:30.000000Z"
+    },
+    {
+        "id": 4,
+        "name": "Jaket",
+        "created_at": "2024-05-19T14:30:59.000000Z",
+        "updated_at": "2024-05-19T14:30:59.000000Z"
+    },
+    {
+        "id": 3,
+        "name": "Topi",
+        "created_at": "2024-05-19T14:30:52.000000Z",
+        "updated_at": "2024-05-19T14:30:52.000000Z"
+    },
+
+
+
+
+
+
+    {
+        "category_id": 2,
+        "name": "T-Shirt",
+        "description": "Comfortable cotton t-shirt available in various sizes.",
+        "price": 15.99,
+        "image": "https://example.com/images/tshirt.jpg",
+        "expired_at": "2025-06-30"
+    },
+    {
+        "category_id": 2,
+        "name": "Denim Jacket",
+        "description": "Stylish denim jacket for casual wear.",
+        "price": 49.99,
+        "image": "https://example.com/images/denim_jacket.jpg",
+        "expired_at": "2024-12-31"
+    },
+    {
+        "category_id": 2,
+        "name": "Summer Dress",
+        "description": "Light and breezy summer dress perfect for hot weather.",
+        "price": 39.99,
+        "image": "https://example.com/images/summer_dress.jpg",
+        "expired_at": "2025-07-15"
+    },
+    {
+        "category_id": 2,
+        "name": "Hoodie",
+        "description": "Warm hoodie for cool evenings.",
+        "price": 29.99,
+        "image": "https://example.com/images/hoodie.jpg",
+        "expired_at": "2025-01-10"
+    },
+    {
+        "category_id": 2,
+        "name": "Formal Shirt",
+        "description": "Elegant formal shirt suitable for office wear.",
+        "price": 25.99,
+        "image": "https://example.com/images/formal_shirt.jpg",
+        "expired_at": "2025-04-30"
+    },
+
+
+
+
+    {
+        "category_id": 1,
+        "name": "Jeans",
+        "description": "Classic blue jeans made from high-quality denim.",
+        "price": 45.99,
+        "image": "https://example.com/images/jeans.jpg",
+        "expired_at": "2025-09-30"
+        
+    },
+    {
+        "category_id": 1,
+        "name": "Chinos",
+        "description": "Comfortable and stylish chinos for casual and formal occasions.",
+        "price": 35.99,
+        "image": "https://example.com/images/chinos.jpg",
+        "expired_at": "2025-06-15"
+    },
+    {
+        "category_id": 1,
+        "name": "Shorts",
+        "description": "Lightweight shorts perfect for summer activities.",
+        "price": 25.99,
+        "image": "https://example.com/images/shorts.jpg",
+        "expired_at": "2025-08-20"
+    },
+    {
+        "category_id": 1,
+        "name": "Joggers",
+        "description": "Comfortable joggers ideal for sports and lounging.",
+        "price": 29.99,
+        "image": "https://example.com/images/joggers.jpg",
+        "expired_at": "2025-03-10"
+    },
+    {
+        "category_id": 1,
+        "name": "Cargo Pants",
+        "description": "Durable cargo pants with multiple pockets.",
+        "price": 39.99,
+        "image": "https://example.com/images/cargo_pants.jpg",
+        "expired_at": "2025-11-05"
+    },
+    {
+        "category_id": 3,
+        "name": "Baseball Cap",
+        "description": "Classic baseball cap available in various colors.",
+        "price": 15.99,
+        "image": "https://example.com/images/baseball_cap.jpg",
+        "expired_at": "2025-07-30"
+    },
+
+
+
+    {
+        "category_id": 3,
+        "name": "Beanie",
+        "description": "Warm beanie hat for cold weather.",
+        "price": 12.99,
+        "image": "https://example.com/images/beanie.jpg",
+        "expired_at": "2025-12-01"
+    },
+    {
+        "category_id": 3,
+        "name": "Fedora",
+        "description": "Stylish fedora hat for formal and casual wear.",
+        "price": 25.99,
+        "image": "https://example.com/images/fedora.jpg",
+        "expired_at": "2025-10-15"
+    },
+    {
+        "category_id": 3,
+        "name": "Sun Hat",
+        "description": "Wide-brimmed sun hat perfect for summer days.",
+        "price": 19.99,
+        "image": "https://example.com/images/sun_hat.jpg",
+        "expired_at": "2025-05-25"
+    },
+    {
+        "category_id": 3,
+        "name": "Bucket Hat",
+        "description": "Trendy bucket hat for casual wear.",
+        "price": 14.99,
+        "image": "https://example.com/images/bucket_hat.jpg",
+        "expired_at": "2025-08-15"
+    }
+]
+
