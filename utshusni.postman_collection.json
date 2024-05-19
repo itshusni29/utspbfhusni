@@ -1,0 +1,472 @@
+{
+	"info": {
+		"_postman_id": "74b432cb-90c9-4387-bc15-99f60e4ab6f8",
+		"name": "utshusni",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34103033"
+	},
+	"item": [
+		{
+			"name": "oauth",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"John Doe\",\r\n    \"email\": \"john.doe@example.com\",\r\n    \"password\": \"Password123!\",\r\n    \"password_confirmation\": \"Password123!\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/users",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users_by_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/users/2",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users_by_id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vaHVzbmkud2ViZnJhbWV3b3JrLm15LmlkL2FwaS9sb2dpbiIsImlhdCI6MTcxNjEzMzI3NCwiZXhwIjoxNzE2MTM2ODc0LCJuYmYiOjE3MTYxMzMyNzQsImp0aSI6IkhSWWxEa1RsV3NlSk5mdzEiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.KmQDwE81fT7yMinXjtQNWeSxxN8tcd1Tm29BdLkVHG4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Charlie Daved\",\r\n        \"email\": \"charlie.davis@example.com\",\r\n        \"password\": \"Secure789Pass!\",\r\n        \"password_confirmation\": \"Secure789Pass!\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/users/4",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"users",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users_by_id Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vaHVzbmkud2ViZnJhbWV3b3JrLm15LmlkL2FwaS9sb2dpbiIsImlhdCI6MTcxNjEzMzI3NCwiZXhwIjoxNzE2MTM2ODc0LCJuYmYiOjE3MTYxMzMyNzQsImp0aSI6IkhSWWxEa1RsV3NlSk5mdzEiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.KmQDwE81fT7yMinXjtQNWeSxxN8tcd1Tm29BdLkVHG4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Charlie Daved\",\r\n        \"email\": \"charlie.davis@example.com\",\r\n        \"password\": \"Secure789Pass!\",\r\n        \"password_confirmation\": \"Secure789Pass!\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/users/3",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"users",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"admin@mail.com\",\r\n    \"password\": \"admin\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/login",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "categoies",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTI1MjkwLCJleHAiOjE3MTYxMjg4OTAsIm5iZiI6MTcxNjEyNTI5MCwianRpIjoiakpYM2xpREp1WTBoMTBJUiIsInN1YiI6IjEzIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.hcYrfnDf2MO00PHi0FfnvxM82MXfT8DFx2WZ-8FgA_E",
+						"type": "text"
+					}
+				]
+			},
+			"response": []
+		},
+		{
+			"name": "categories",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "categories_by_id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vaHVzbmkud2ViZnJhbWV3b3JrLm15LmlkL2FwaS9sb2dpbiIsImlhdCI6MTcxNjEzMzI3NCwiZXhwIjoxNzE2MTM2ODc0LCJuYmYiOjE3MTYxMzMyNzQsImp0aSI6IkhSWWxEa1RsV3NlSk5mdzEiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.KmQDwE81fT7yMinXjtQNWeSxxN8tcd1Tm29BdLkVHG4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/categories/1",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"categories",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "categories_by_id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vaHVzbmkud2ViZnJhbWV3b3JrLm15LmlkL2FwaS9sb2dpbiIsImlhdCI6MTcxNjEzMzI3NCwiZXhwIjoxNzE2MTM2ODc0LCJuYmYiOjE3MTYxMzMyNzQsImp0aSI6IkhSWWxEa1RsV3NlSk5mdzEiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.KmQDwE81fT7yMinXjtQNWeSxxN8tcd1Tm29BdLkVHG4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"name\": \"Jaket\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/categories/2",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"categories",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "categories_by_id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vaHVzbmkud2ViZnJhbWV3b3JrLm15LmlkL2FwaS9sb2dpbiIsImlhdCI6MTcxNjEzMzI3NCwiZXhwIjoxNzE2MTM2ODc0LCJuYmYiOjE3MTYxMzMyNzQsImp0aSI6IkhSWWxEa1RsV3NlSk5mdzEiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.KmQDwE81fT7yMinXjtQNWeSxxN8tcd1Tm29BdLkVHG4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"name\": \"Jaket\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/categories/4",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"categories",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "products",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "products_by_id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vaHVzbmkud2ViZnJhbWV3b3JrLm15LmlkL2FwaS9sb2dpbiIsImlhdCI6MTcxNjEzMzI3NCwiZXhwIjoxNzE2MTM2ODc0LCJuYmYiOjE3MTYxMzMyNzQsImp0aSI6IkhSWWxEa1RsV3NlSk5mdzEiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.KmQDwE81fT7yMinXjtQNWeSxxN8tcd1Tm29BdLkVHG4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/products/1",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products_by_id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"category_id\": 3,\r\n        \"name\": \"not Bucket Hat\",\r\n        \"description\": \"Trendy bucket hat for casual wear.\",\r\n        \"price\": 14.99,\r\n        \"image\": \"https://example.com/images/bucket_hat.jpg\",\r\n        \"expired_at\": \"2025-08-15\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/products/2",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"products",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vaHVzbmkud2ViZnJhbWV3b3JrLm15LmlkL2FwaS9sb2dpbiIsImlhdCI6MTcxNjEzMzI3NCwiZXhwIjoxNzE2MTM2ODc0LCJuYmYiOjE3MTYxMzMyNzQsImp0aSI6IkhSWWxEa1RsV3NlSk5mdzEiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.KmQDwE81fT7yMinXjtQNWeSxxN8tcd1Tm29BdLkVHG4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://husni.webframework.my.id/api/products/3",
+					"protocol": "https",
+					"host": [
+						"husni",
+						"webframework",
+						"my",
+						"id"
+					],
+					"path": [
+						"api",
+						"products",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
